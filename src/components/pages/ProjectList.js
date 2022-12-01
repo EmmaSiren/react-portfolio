@@ -4,7 +4,7 @@ const projects = [
     name: 'Note Taker',
     link: 'link.com',
     repo: 'repo.github.com',
-    img: '',
+    img: 'https://www.shutterstock.com/image-photo/word-example-written-on-magnifying-600w-1883859943.jpg',
   },
   {
     id: 2,

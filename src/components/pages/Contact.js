@@ -12,50 +12,60 @@ export default function Contact() {
     const inputType = target.name;
     const inputValue = target.value;
 
-    if(!validateEmail(email)) {
-      setErrorMessage('Your email is invalid.');
+
+    if (inputType === 'name') {
+      setErrorMessage('');
+      setName(inputValue);
       return;
-    } else if (inputType === 'email') {
-      setEmail(inputValue);
-    }
-    if(!name) {
+    } else if (!name) {
       setErrorMessage('Name is required.');
       return;
-    } else if (inputType === 'name') {
-      setName(inputValue);
     }
-    if(!message) {
+    if (inputType === 'email') {
+      setErrorMessage('');
+      setEmail(inputValue);
+      return;
+    } else if (!validateEmail(email)) {
+      setErrorMessage('Your email is invalid.');
+      return;
+    }
+    if (inputType === 'message') {
+      setErrorMessage('');
+      setMessage(inputValue);
+      return;
+    } else if (!message) {
       setErrorMessage('Message is required.');
       return;
-    } else if (inputType === 'message') {
-      setMessage(inputValue);
-    }
+    } 
   };
 
   return (
     <div>
       <h1>Contact</h1>
         <form className="form">
+          <p>Name:</p>
           <input
             value={name}
             name="name"
             onChange={handleInputChange}
             type="text"
           />
+          <p>Email:</p>
           <input
             value={email}
             name="email"
             onChange={handleInputChange}
             type="email"
           />
+          <p>Message:</p>
           <input
             value={message}
             name="message"
             onChange={handleInputChange}
             type="text"
           />
-          <button type="button">Submit</button>
         </form>
+        <button type="button">Submit</button>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
