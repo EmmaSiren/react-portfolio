@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav justify-content-end">
       <li className="nav-item">
         <a
         href="#aboutme"

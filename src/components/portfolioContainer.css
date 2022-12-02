@@ -1,0 +1,28 @@
+header {
+  padding: 40px 6% 40px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: pink;
+  color: white;
+}
+
+a.nav-link {
+  color: white;
+}
+
+section {
+  height: 70vh;
+  padding-top: 50px;
+}
+
+#aboutMe {
+  font-size: 25px;
+}
+
+#meImage {
+  width: 60px;
+  border-radius: 30px;
+}

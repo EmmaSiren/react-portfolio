@@ -5,6 +5,7 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import projects from './pages/ProjectList';
 import Resume from './pages/Resume';
+import './portfolioContainer.css'
 
 
 export default function PortfolioContainer() {
@@ -27,8 +28,16 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+       <header>
+        <h1 className="display-5 fw-bold">Emma</h1>
+        <nav>
+          <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+        </nav>
+      </header>
+      <section className="container">
+        {renderPage()}
+      </section>
+      <footer className="text-center">Footer</footer>
     </div>
   );
 }
