@@ -29,7 +29,7 @@ export default function PortfolioContainer() {
   return (
     <div>
        <header>
-        <h1 className="display-5 fw-bold">Emma</h1>
+        <h1 className="display-5 fw-bold">Emma Velazquez</h1>
         <nav>
           <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
         </nav>

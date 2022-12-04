@@ -1,0 +1,54 @@
+.project {
+  position: relative;
+  width: 50%;
+  margin: 10px;
+}
+
+.image {
+  width: 450px;
+  transition: .9s ease;
+}
+
+.overlay {
+  margin-left: 12px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 450px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.project:hover .overlay {
+  opacity: .8;
+  transform: scale(1.1);
+}
+
+.project:hover .image {
+  transform: scale(0.9);
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-decoration: none;
+}
+
+.name {
+  top: 40%;
+}
+
+.repo {
+  top: 58%;
+}
