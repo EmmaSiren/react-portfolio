@@ -10,14 +10,15 @@
 }
 
 .overlay {
-  margin-left: 12px;
+  margin-left: 52px;
+  margin-top: 24px;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 450px;
+  height: 221px;
+  width: 370px;
   opacity: 0;
   transition: .5s ease;
   background-color: white;
@@ -50,5 +51,5 @@
 }
 
 .repo {
-  top: 58%;
+  top: 65%;
 }
