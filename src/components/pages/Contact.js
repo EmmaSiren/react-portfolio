@@ -63,6 +63,7 @@ export default function Contact() {
             name="message"
             onChange={handleInputChange}
             type="text"
+            className="message form-control"
           />
         </form>
         <button type="button">Submit</button>
