@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <div className="aboutPage">
       <h1 className="title">About Me</h1>
-      <img id="meImage" src={image}></img>
+      <img id="meImage" alt="" src={image}></img>
       <div id="aboutMe">
         <p>Hello! My name is Emma and I have been diligently learning 
           and studying web development for the past six months now. 

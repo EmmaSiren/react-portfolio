@@ -1,11 +1,12 @@
 import React from 'react';
+import resume from '../images/resumeSample.pdf';
 
 export default function Resume() {
   return (
     <div>
       <h1 className="title">Resume</h1>
       <p>
-        Download my <a href="">resume</a>
+        Download my <a href={resume} download="resumeSample.pdf">resume</a>
       </p>
       <h2>Front-end Proficiences</h2>
         <ul>
