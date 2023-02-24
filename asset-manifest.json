@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.8c602f32.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.f498066d.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.f498066d.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.85763d6e.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.c6544798.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.c6544798.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.9e654e57.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.9e654e57.js.map",
     "static/css/2.f26e749f.chunk.css": "/react-portfolio/static/css/2.f26e749f.chunk.css",
@@ -10,13 +10,13 @@
     "static/js/2.bed7a15d.chunk.js.map": "/react-portfolio/static/js/2.bed7a15d.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.f26e749f.chunk.css.map": "/react-portfolio/static/css/2.f26e749f.chunk.css.map",
-    "static/css/main.8c602f32.chunk.css.map": "/react-portfolio/static/css/main.8c602f32.chunk.css.map",
+    "static/css/main.85763d6e.chunk.css.map": "/react-portfolio/static/css/main.85763d6e.chunk.css.map",
     "static/js/2.bed7a15d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.bed7a15d.chunk.js.LICENSE.txt",
     "static/media/CodingQuizGif.ce731841.gif": "/react-portfolio/static/media/CodingQuizGif.ce731841.gif",
+    "static/media/Velazquez, Emma - Resume.6e07c396.pdf": "/react-portfolio/static/media/Velazquez, Emma - Resume.6e07c396.pdf",
     "static/media/image1.4f0d23b4.jpg": "/react-portfolio/static/media/image1.4f0d23b4.jpg",
     "static/media/noteTaker.fd5dcb4b.jpg": "/react-portfolio/static/media/noteTaker.fd5dcb4b.jpg",
     "static/media/passwordGenerator.ede1ad6c.jpg": "/react-portfolio/static/media/passwordGenerator.ede1ad6c.jpg",
-    "static/media/resumeSample.ea3cbaeb.pdf": "/react-portfolio/static/media/resumeSample.ea3cbaeb.pdf",
     "static/media/textEditor.052b5d62.jpg": "/react-portfolio/static/media/textEditor.052b5d62.jpg",
     "static/media/weatherDashboard.1f4a6457.jpg": "/react-portfolio/static/media/weatherDashboard.1f4a6457.jpg",
     "static/media/workScheduler.686b5d64.jpg": "/react-portfolio/static/media/workScheduler.686b5d64.jpg"
@@ -25,7 +25,7 @@
     "static/js/runtime-main.9e654e57.js",
     "static/css/2.f26e749f.chunk.css",
     "static/js/2.bed7a15d.chunk.js",
-    "static/css/main.8c602f32.chunk.css",
-    "static/js/main.f498066d.chunk.js"
+    "static/css/main.85763d6e.chunk.css",
+    "static/js/main.c6544798.chunk.js"
   ]
 }
