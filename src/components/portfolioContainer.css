@@ -29,7 +29,7 @@ header {
   text-shadow: 3px 4px 0 #ff79a4;
 }
 
-a.nav-link {
+a.nav-link, h4.footerIcons {
   color: white;
 }
 

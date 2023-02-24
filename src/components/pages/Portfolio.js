@@ -4,7 +4,7 @@ import './portfolio.css';
 export default function Portfolio({projects}) {
   return(
     <div className="container">
-      <h1 className="title">Portfolio</h1>
+      <h1 className="title">Projects</h1>
       <div className="project-group row">
         {projects.map(project => (
           <div className="project-group-item project col" key={project.id}>
